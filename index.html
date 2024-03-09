@@ -22,7 +22,7 @@
     <h1>Frontend Web App from Kenny</h1>
     <div id="message"></div>
     <script>
-        fetch('/api/message')
+        fetch('api.kennyisagoodman.top/fastapi')
             .then(response => response.json())
             .then(data => {
                 document.getElementById('message').innerText = data.message;
